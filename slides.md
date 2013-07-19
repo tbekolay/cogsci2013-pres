@@ -64,9 +64,12 @@ vector of numbers => spike train
 TODO svg:
 vector => spike train => decoded vector
 
-(fragment)
-$$a_i = f(e_i \cdot x)$$
-$$\hat{x} = \sum_i d_i a_i$$
+<div class="fragment">
+\begin{aligned}
+a_i &= f(e_i \cdot x)
+\hat{x} &= \sum_i d_i a_i
+\end{aligned}
+</div>
 
 
 
@@ -75,8 +78,9 @@ $$\hat{x} = \sum_i d_i a_i$$
 TODO svg:
 vector => spike train => spike train => vector
 
-(fragment)
+<div class="fragment">
 $$\omega_{ij} = \alpha_j e_j d_i$$
+</div>
 
 
 
