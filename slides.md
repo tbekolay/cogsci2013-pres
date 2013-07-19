@@ -66,7 +66,7 @@ vector => spike train => decoded vector
 
 <div class="fragment">
 \begin{aligned}
-a_i &= f(e_i \cdot x)
+a_i &= f(e_i \cdot x) \\
 \hat{x} &= \sum_i d_i a_i
 \end{aligned}
 </div>
@@ -100,9 +100,12 @@ $\Delta \omega_{ij} = ?$
 
 ## Supervised learning
 
-Given error $E$
-$$\Delta d_i = \kappa E a_i$$
-$$\Delta \omega_{ij} = \kappa \alpha_j e_j \cdot E a_i$$
+Given error $E$,
+
+\begin{aligned}
+\Delta d_i &= \kappa E a_i \\
+\Delta \omega_{ij} &= \kappa \alpha_j e_j \cdot E a_i
+\end{aligned}
 
 
 
@@ -115,6 +118,7 @@ Classifying digits: 96.31% accuracy (Spaun: 94% accuracy)
 ## Unsupervised learning
 
 What happens to $\omega_{ij}$ with no error $E$?
+
 $$\Delta \omega_{ij} \propto a_i a_j (a_j - \theta)$$
 
 
