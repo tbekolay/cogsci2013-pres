@@ -66,8 +66,8 @@ vector => spike train => decoded vector
 
 <div class="fragment">
 \begin{aligned}
-a_i &= f(e_i \cdot x) \\
-\hat{x} &= \sum_i d_i a_i
+  a_i &= f(e_i \cdot x) \\\\
+  \hat{x} &= \sum_i d_i a_i
 \end{aligned}
 </div>
 
@@ -102,11 +102,12 @@ $\Delta \omega_{ij} = ?$
 
 Given error $E$,
 
+<div>
 \begin{aligned}
-\Delta d_i &= \kappa E a_i \\
-\Delta \omega_{ij} &= \kappa \alpha_j e_j \cdot E a_i
+  \Delta d_i &= \kappa E a_i \\\\
+  \Delta \omega_{ij} &= \kappa \alpha_j e_j \cdot E a_i
 \end{aligned}
-
+</div>
 
 
 TODO: learn curve for transmission and binding
