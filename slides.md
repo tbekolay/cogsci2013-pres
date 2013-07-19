@@ -21,18 +21,18 @@ University of Waterloo <br>
 
 ### Represent symbols with vectors
 
-TODO svg:
-show a handwritten 4 => vector of numbers
+<div id="#spa-1"></div>
+handwritten 4 => vector of numbers
 
 
 
 ## Why?
 
-TODO svg:
-show another handwritten 4 => vector of numbers
+<div id="#spa-2"></div>
+another handwritten 4 => vector of numbers
 
-TODO svg: (fragment)
-show a sound wave => vector of numbers
+<div class="fragment" id="#spa-3"></div>
+sound wave => vector of numbers
 
 
 
@@ -54,14 +54,14 @@ Binding
 
 ### Encode vectors in neural populations
 
-TODO svg:
+<div id="#nef-1"></div>
 vector of numbers => spike train
 
 
 
 ## How? Representation
 
-TODO svg:
+<div id="#nef-2"></div>
 vector => spike train => decoded vector
 
 <div class="fragment">
@@ -75,7 +75,7 @@ vector => spike train => decoded vector
 
 ## How? Transformation
 
-TODO svg:
+<div id="#nef-3"></div>
 vector => spike train => spike train => vector
 
 <div class="fragment">
@@ -86,7 +86,7 @@ $$\omega_{ij} = \alpha_j e_j d_i$$
 
 ## Why?
 
-TODO svg:
+<div id="#nef-4"></div>
 spike train => vector => handwritten 4
 
 
@@ -102,15 +102,14 @@ $\Delta \omega_{ij} = ?$
 
 Given error $E$,
 
-<div>
 \begin{aligned}
-  \Delta d_i &= \kappa E a_i \\\\
-  \Delta \omega_{ij} &= \kappa \alpha_j e_j \cdot E a_i
+  \Delta d\_i &= \kappa E a\_i \\\\
+  \Delta \omega\_{ij} &= \kappa \alpha\_j e\_j \cdot E a\_i
 \end{aligned}
-</div>
 
 
-TODO: learn curve for transmission and binding
+<div id="#learncurve-pes"></div>
+learn curve for transmission and binding
 
 Classifying digits: 96.31% accuracy (Spaun: 94% accuracy)
 
@@ -124,16 +123,18 @@ $$\Delta \omega_{ij} \propto a_i a_j (a_j - \theta)$$
 
 
 
-TODO: STDP curve
+<div id="#stdp"></div>
+STDP curve
 
-TODO: Freq dependence curve
+<div id="#freq"></div>
+Freq dependence curve
 
 
 
 ## Supervised + unsupervised
 
-TODO: ML layered approach, showing non-overlapping stages
-of UL + SL
+<div id="#ml"></div>
+ML layered approach, showing non-overlapping stages of UL + SL
 
 Classifying digits: 99+% accuracy
 
@@ -147,14 +148,16 @@ $$\Delta \omega_{ij} = \kappa \alpha_j a_i [S e_j \cdot E + (1 - S) a_j (a_j - \
 
 ## Sparsity vs error
 
-TODO: sparsity + error plot
+<div id="#sparsity"></div>
+sparsity + error plot
 
 
 
 
 ## Performance
 
-TODO: learn plots with both lines
+<div id="#learncurve"></div>
+learn plots with both lines
 
 Classifying digits: 98.47% accuracy (Supervised: 96.31%)
 
@@ -167,7 +170,8 @@ Classifying digits: 98.47% accuracy (Supervised: 96.31%)
 
 
 
-TODO: parameter plot
+<div id="#params"></div>
+parameter plot
 
 
 
