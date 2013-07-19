@@ -21,17 +21,17 @@ University of Waterloo <br>
 
 ### Represent symbols with vectors
 
-<div id="#spa-1"></div>
+<div id="spa-1"></div>
 handwritten 4 => vector of numbers
 
 
 
 ## Why?
 
-<div id="#spa-2"></div>
+<div id="spa-2"></div>
 another handwritten 4 => vector of numbers
 
-<div class="fragment" id="#spa-3"></div>
+<div id="spa-3" class="fragment"></div>
 sound wave => vector of numbers
 
 
@@ -54,14 +54,14 @@ Binding
 
 ### Encode vectors in neural populations
 
-<div id="#nef-1"></div>
+<div id="nef-1"></div>
 vector of numbers => spike train
 
 
 
 ## How? Representation
 
-<div id="#nef-2"></div>
+<div id="nef-2"></div>
 vector => spike train => decoded vector
 
 <div class="fragment">
@@ -75,7 +75,7 @@ vector => spike train => decoded vector
 
 ## How? Transformation
 
-<div id="#nef-3"></div>
+<div id="nef-3"></div>
 vector => spike train => spike train => vector
 
 <div class="fragment">
@@ -86,7 +86,7 @@ $$\omega_{ij} = \alpha_j e_j d_i$$
 
 ## Why?
 
-<div id="#nef-4"></div>
+<div id="nef-4"></div>
 spike train => vector => handwritten 4
 
 
@@ -108,7 +108,7 @@ Given error $E$,
 \end{aligned}
 
 
-<div id="#learncurve-pes"></div>
+<div id="learncurve-pes"></div>
 learn curve for transmission and binding
 
 Classifying digits: 96.31% accuracy (Spaun: 94% accuracy)
@@ -123,17 +123,17 @@ $$\Delta \omega_{ij} \propto a_i a_j (a_j - \theta)$$
 
 
 
-<div id="#stdp"></div>
+<div id="stdp"></div>
 STDP curve
 
-<div id="#freq"></div>
+<div id="freq"></div>
 Freq dependence curve
 
 
 
 ## Supervised + unsupervised
 
-<div id="#ml"></div>
+<div id="ml"></div>
 ML layered approach, showing non-overlapping stages of UL + SL
 
 Classifying digits: 99+% accuracy
@@ -148,7 +148,7 @@ $$\Delta \omega_{ij} = \kappa \alpha_j a_i [S e_j \cdot E + (1 - S) a_j (a_j - \
 
 ## Sparsity vs error
 
-<div id="#sparsity"></div>
+<div id="sparsity"></div>
 sparsity + error plot
 
 
@@ -156,7 +156,7 @@ sparsity + error plot
 
 ## Performance
 
-<div id="#learncurve"></div>
+<div id="learncurve"></div>
 learn plots with both lines
 
 Classifying digits: 98.47% accuracy (Supervised: 96.31%)
@@ -170,7 +170,7 @@ Classifying digits: 98.47% accuracy (Supervised: 96.31%)
 
 
 
-<div id="#params"></div>
+<div id="params"></div>
 parameter plot
 
 
