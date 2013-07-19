@@ -82,11 +82,18 @@
           {src: 'plugin/zoom-js/zoom.js', async: true,
            condition: function() { return !!document.body.classList; } },
           {src: 'plugin/notes/notes.js', async: true,
-           condition: function() { return !!document.body.classList; } }
+           condition: function() { return !!document.body.classList; } },
+          {src: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML', async: true },
         ]
       });
     </script>
     <script src="lib/js/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      MathJax.Hub.Config({
+        "tex2jax": { inlineMath: [ [ '$', '$' ] ] }
+      });
+    </script>
+    <script src="lib/js/main.js" charset="utf-8"></script>
     <script src="lib/js/custom.js"></script>
   </body>
 </html>
