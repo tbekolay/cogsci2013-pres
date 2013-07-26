@@ -155,9 +155,7 @@ Classifying digits: 98.47% accuracy (Supervised: 96.31%)
 
 ## Learning parameters
 
-* $N / d$: neurons per dimension
-* $\kappa$: learning rate
-* $S$: supervision ratio
+Neurons per dimension, learning rate, supervision ratio ($S$)
 
 <iframe width="800" height="280" src="//jaberg.github.io/hyperopt/" frameborder="0"></iframe>
 
