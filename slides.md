@@ -45,6 +45,13 @@ Spaun: transmission & binding
 
 
 
+![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, ...\right]$
+
+![A handwritten 5](img/hand5-1.png) $\rightarrow$ ![Another handwritten 5](img/hand5-2.png)
+$\Rightarrow \left[0.12, 0.75, 0.25, ...\right]$
+
+
+
 ## Transmission
 
 $f(X) = X$
