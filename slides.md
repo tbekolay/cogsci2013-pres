@@ -8,10 +8,12 @@
 
 
 
-## Learning <br> cognitive functions
+![Spaun](img/spaun.gif)
+Spaun: transmission & binding
 
-<p class="fragment">in biologically plausible spiking neural networks</p>
-<p class="fragment">with simultaneous unsupervised and supervised learning</p>
+
+
+## Can the connections in Spaun be the result of biologically plausible learning?
 
 
 
@@ -86,11 +88,6 @@ $$\hat{X} = \sum_i \color{red}{d_i} a_i$$
 
 
 
-![Spaun](img/spaun.gif)
-Spaun: transmission & binding
-
-
-
 ## 3. Supervised and unsupervised learning
 
 
@@ -151,6 +148,10 @@ Classifying digits: 98.47% accuracy (Supervised: 96.31%)
 
 ## Learning parameters
 
+* $N / d$: neurons per dimension
+* $\kappa$: learning rate
+* $S$: supervision ratio
+
 <iframe width="800" height="280" src="//jaberg.github.io/hyperopt/" frameborder="0"></iframe>
 
 [<span data-icon="&#xe003;"></span> jaberg/hyperopt](https://github.com/jaberg/hyperopt)
@@ -158,6 +159,12 @@ Classifying digits: 98.47% accuracy (Supervised: 96.31%)
 
 
 <div id="params"></div>
+
+
+
+## 1. Parameter-less learning
+
+<h2 class="fragment">2. Generating error signals ($E$)</h2>
 
 
 
