@@ -2,4 +2,9 @@
   border: none;
   background: none;
   box-shadow: none;
+  vertical-align: middle;
+}
+
+.pull-left {
+  float:left;
 }
