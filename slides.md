@@ -8,12 +8,19 @@
 
 
 
-![Spaun](img/spaun.gif)
-Spaun: transmission & binding
+Spaun does 8 cognitive tasks (list memory, semantic reasoning)
+
+![Spaun](img/spaun.png)
+
+**Could the connections in Spaun be the result of learning?**
 
 
 
-## Can the connections in Spaun be the result of biologically plausible learning?
+<ol style="font-size:160%; line-height:160%;">
+  <li>Cognitive functions</li>
+  <li>In spiking neurons</li>
+  <li>Supervised and unsupervised learning</li>
+</ol>
 
 
 
@@ -25,13 +32,9 @@ Spaun: transmission & binding
 
 ![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, \dots \right]$
 
-
-
-## Why?
-
-![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, \dots \right]$
-
+<div class="fragment">
 ![Another handwritten 5](img/hand5-2.png) $\Rightarrow \left[0.38, 0.14, 0.30, \dots \right]$
+</div>
 
 
 
@@ -43,12 +46,10 @@ Spaun: transmission & binding
 
 ![Sound wave](img/sound.png) $\Rightarrow \left[0.12, 0.75, 0.25, \dots \right]$
 
-
-
-![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, \dots \right]$
-
+<div class="fragment">
 ![A handwritten 5](img/hand5-1.png) $\rightarrow$ ![Another handwritten 5](img/hand5-2.png)
-$\Rightarrow \left[0.12, 0.75, 0.25, \dots \right]$
+$\Rightarrow \left[0.45, 0.28, 0.29, \dots \right]$
+</div>
 
 
 
@@ -75,6 +76,10 @@ $$f(X, Y) = Z$$
 
 
 
+$$\text{Pre }(X) \Rightarrow \text{Post }(X)$$
+
+
+
 ### Encode vectors in neural populations
 
 $X = \left[0.42, 0.12, 0.35, \dots \right] \Rightarrow$ ![Spike train](img/spikes.gif)
@@ -92,9 +97,10 @@ $a_i = f(\color{red}{e_i} \cdot X)$
 <div class="fragment">
 $$\hat{X} = \sum_j \color{red}{d_j} a_j$$
 </div>
+
 <div class="fragment">
 $$\omega_{ij} \propto e_i d_j$$
-</div
+</div>
 
 
 
@@ -104,12 +110,9 @@ $$\omega_{ij} \propto e_i d_j$$
 
 ## Supervised learning
 
-Given error $E$,
+Given error $E = X - \hat{X}$,
 
-\begin{aligned}
-  \Delta d\_i &\propto E a\_i \\\\
-  \Delta \omega\_{ij} &\propto  e\_j \cdot E a\_i
-\end{aligned}
+$$\Delta \omega\_{ij} \propto  e\_j \cdot E a\_i$$
 
 
 
@@ -118,9 +121,6 @@ Given error $E$,
 
 
 ## Unsupervised learning
-
-$$\Delta \omega_{ij} \propto a_i a_j (a_j - \theta)$$
-<div id="bcm_rule"></div>
 
 
 
@@ -132,9 +132,8 @@ $$\Delta \omega_{ij} \propto a_i a_j (a_j - \theta)$$
 
 
 
-## Machine learning
-
-[![Deep Belief Nets](img/ml.png)](http://www4.comp.polyu.edu.hk/~csshzhong/Bilinear_Deep_Belief_Network.html)
+$$\Delta \omega_{ij} \propto a_i a_j (a_j - E[a_j])$$
+<div id="bcm_rule"></div>
 
 
 
@@ -152,7 +151,11 @@ $$\Delta \omega_{ij} \propto a_i \left[\color{red}{S} e_j \cdot E + \color{red}{
 
 
 
-## New question: How are error signals ($E$) generated?
+Given an error signal, $E$, a connection can be learned.
+
+<div class="fragment">
+**How are error signals generated?**
+</div>
 
 
 
@@ -163,7 +166,12 @@ Thanks to CNRGlab members, NSERC, CRC, CFI and OIT.
 <small>Simultaneous unsupervised and supervised learning of cognitive functions <br>
 in biologically plausible spiking neural networks</small>
 
-[bekolay.org/cogsci2013-pres](http://bekolay.org/cogsci2013-pres)
+* [bekolay.org/cogsci2013-pres](http://bekolay.org/cogsci2013-pres)
+* [<span data-icon="&#xe003;"></span> tbekolay/cogsci2013](https://github.com/tbekolay/cogsci2013)
+* [<span data-icon="&#xe003;"></span> tbekolay/cogsci2013-pres](https://github.com/tbekolay/cogsci2013-pres)
 
-[<span data-icon="&#xe003;"></span> tbekolay/cogsci2013](https://github.com/tbekolay/cogsci2013)
-$\cdot$ [<span data-icon="&#xe003;"></span> tbekolay/cogsci2013-pres](https://github.com/tbekolay/cogsci2013-pres)
+
+
+## Machine learning
+
+[![Deep Belief Nets](img/ml.png)](http://www4.comp.polyu.edu.hk/~csshzhong/Bilinear_Deep_Belief_Network.html)
