@@ -23,15 +23,15 @@ Spaun: transmission & binding
 
 ### Represent symbols with vectors
 
-![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, ...\right]$
+![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, \dots \right]$
 
 
 
 ## Why?
 
-![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, ...\right]$
+![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, \dots \right]$
 
-![Another handwritten 5](img/hand5-2.png) $\Rightarrow \left[0.38, 0.14, 0.30, ...\right]$
+![Another handwritten 5](img/hand5-2.png) $\Rightarrow \left[0.38, 0.14, 0.30, \dots \right]$
 
 
 
@@ -39,16 +39,16 @@ Spaun: transmission & binding
 
 
 
-![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, ...\right]$
+![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, \dots \right]$
 
-![Sound wave](img/sound.png) $\Rightarrow \left[0.12, 0.75, 0.25, ...\right]$
+![Sound wave](img/sound.png) $\Rightarrow \left[0.12, 0.75, 0.25, \dots \right]$
 
 
 
-![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, ...\right]$
+![A handwritten 5](img/hand5-1.png) $\Rightarrow \left[0.42, 0.12, 0.35, \dots \right]$
 
 ![A handwritten 5](img/hand5-1.png) $\rightarrow$ ![Another handwritten 5](img/hand5-2.png)
-$\Rightarrow \left[0.12, 0.75, 0.25, ...\right]$
+$\Rightarrow \left[0.12, 0.75, 0.25, \dots \right]$
 
 
 
@@ -77,7 +77,7 @@ $$f(X, Y) = Z$$
 
 ### Encode vectors in neural populations
 
-$\left[0.42, 0.12, 0.35, ...\right] \Rightarrow$ ![Spike train](img/spikes.gif)
+$X = \left[0.42, 0.12, 0.35, \dots \right] \Rightarrow$ ![Spike train](img/spikes.gif)
 
 <div class="fragment">
 $a_i = f(\color{red}{e_i} \cdot X)$
@@ -87,11 +87,14 @@ $a_i = f(\color{red}{e_i} \cdot X)$
 
 ### Decode vectors from neural populations
 
-![Spike train](img/spikes.gif) $\Rightarrow \left[0.41, 0.12, 0.36, ...\right]$
+![Spike train](img/spikes.gif) $\Rightarrow \hat{X} = \left[0.41, 0.12, 0.36, \dots \right]$
 
 <div class="fragment">
-$$\hat{X} = \sum_i \color{red}{d_i} a_i$$
+$$\hat{X} = \sum_j \color{red}{d_j} a_j$$
 </div>
+<div class="fragment">
+$$\omega_{ij} \propto e_i d_j$$
+</div
 
 
 
@@ -111,8 +114,6 @@ Given error $E$,
 
 
 <div id="learncurve-pes"></div>
-
-Classifying digits: 96.31% accuracy (Spaun: 94% accuracy)
 
 
 
@@ -145,41 +146,24 @@ $$\Delta \omega_{ij} \propto a_i \left[\color{red}{S} e_j \cdot E + \color{red}{
 
 <div id="learncurve"></div>
 
-Classifying digits: 98.47% accuracy (Supervised: 96.31%)
-
 
 
 <div id="sparsity"></div>
 
 
 
-## Learning parameters
-
-Neurons per dimension, learning rate, supervision ratio ($S$)
-
-<iframe width="800" height="280" src="//jaberg.github.io/hyperopt/" frameborder="0"></iframe>
-
-[<span data-icon="&#xe003;"></span> jaberg/hyperopt](https://github.com/jaberg/hyperopt)
+## New question: How are error signals ($E$) generated?
 
 
 
-<div id="params"></div>
-
-
-
-## 1. Parameter-less learning
-
-<h2 class="fragment">2. Generating error signals ($E$)</h2>
-
-
-
-Thanks to Carter Kolbeck, Chris Eliasmith, <br>
-James Bergstra, and NSERC.
+Thanks to CNRGlab members, NSERC, CRC, CFI and OIT.
 
 ----
 
-<small>Simultaneous unsupervised and supervised learning of cognitive functions <br>in biologically plausible spiking neural networks</small>
+<small>Simultaneous unsupervised and supervised learning of cognitive functions <br>
+in biologically plausible spiking neural networks</small>
 
-[<span data-icon="&#xe003;"></span> Paper & code](https://github.com/tbekolay/cogsci2013)
-| [bekolay.org/cogsci2013-pres](http://bekolay.org/cogsci2013-pres)
-| [<span data-icon="&#xe003;"></span> Source](https://github.com/tbekolay/cogsci2013-pres)
+[bekolay.org/cogsci2013-pres](http://bekolay.org/cogsci2013-pres)
+
+[<span data-icon="&#xe003;"></span> tbekolay/cogsci2013](https://github.com/tbekolay/cogsci2013)
+$\cdot$ [<span data-icon="&#xe003;"></span> tbekolay/cogsci2013-pres](https://github.com/tbekolay/cogsci2013-pres)
