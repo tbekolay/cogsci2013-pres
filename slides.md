@@ -98,7 +98,7 @@ perform these cognitive tasks.
 ## 2. In spiking neurons
 
 <div class="fragment">
-<strong>Neural Engineering Framework</strong> (Eliasmith & Anderson, 2003)
+<strong>Neural Engineering Framework</strong><br>(Eliasmith & Anderson, 2003)
 </div>
 
 
@@ -232,7 +232,7 @@ $$\Delta \omega_{ij} \propto a_i \; \underbrace{a_j (a_j - E[a_j])}$$
 
 ----
 
-<small>Bi & Poo (<em>Annual Review of Neuroscience</em>, 2001)</small>
+<p style="text-align:right;"><small>Bi & Poo (2001)</small></p>
 
 
 
@@ -240,15 +240,16 @@ $$\Delta \omega_{ij} \propto a_i \; \underbrace{a_j (a_j - E[a_j])}$$
 
 ----
 
-<small>Kirkwood, Rioult & Bear (<em>Nature</em>, 1996)</small>
+<p style="text-align:right;"><small>Kirkwood, Rioult & Bear (1996)</small></p>
 
 
 
 ## Combined learning
 
-$$\Delta \omega_{ij} \propto a_i [\color{red}{S}
-  \overbrace{e_j \cdot E}^\text{Supervised} + \color{red}{(1 - S)} \,
-  \overbrace{a_j (a_j - \theta)}^\text{Unsupervised}]$$
+$$\Delta \omega\_{ij} \propto a\_i [\color{red}{S}
+  \underbrace{e\_j \cdot E}\_{\color{blue}{\text{ Supervised}}}
+  + \color{red}{(1 - S)} \,
+  \underbrace{a\_j (a\_j - \theta)}\_{\color{blue}{\text{ Unsupervised}}}]$$
 
 
 
@@ -262,9 +263,10 @@ $$\Delta \omega_{ij} \propto a_i [\color{red}{S}
 
 ## Sparsity
 
-![Less sparse](img/5-blur.png) ![More sparse](img/5-sharp.png)
+<div id="dense" style="display:inline;"></div>
+<div id="sparse" style="display:inline;"></div>
 
-0.45 <span style="padding-left: 90px;">0.60</span>
+0.18 <span style="padding-left: 240px;">0.51</span>
 
 
 
@@ -287,9 +289,18 @@ Thanks to CNRGlab members, NSERC, CRC, CFI and OIT.
 <small>Simultaneous unsupervised and supervised learning of cognitive functions <br>
 in biologically plausible spiking neural networks</small>
 
-* [bekolay.org/cogsci2013-pres](http://bekolay.org/cogsci2013-pres)
-* [<span data-icon="&#xe003;"></span> tbekolay/cogsci2013](https://github.com/tbekolay/cogsci2013)
-* [<span data-icon="&#xe003;"></span> tbekolay/cogsci2013-pres](https://github.com/tbekolay/cogsci2013-pres)
+[bekolay.org/cogsci2013-pres](http://bekolay.org/cogsci2013-pres)
+
+[<span data-icon="&#xe003;"></span> tbekolay/cogsci2013](https://github.com/tbekolay/cogsci2013)
+
+[<span data-icon="&#xe003;"></span> tbekolay/cogsci2013-pres](https://github.com/tbekolay/cogsci2013-pres)
+
+
+
+## Learning transmission
+
+
+<div id="tr-learncurve"></div>
 
 
 
@@ -305,5 +316,6 @@ Neurons per dimension, learning rate, supervision ratio ($S$)
 
 
 ## Machine learning
+
 
 [![Deep Belief Nets](img/ml.png)](http://www4.comp.polyu.edu.hk/~csshzhong/Bilinear_Deep_Belief_Network.html)

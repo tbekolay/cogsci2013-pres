@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (http://matplotlib.org/) -->
+<svg height="216pt" version="1.1" viewBox="0 0 216 216" width="216pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+*{stroke-linecap:square;stroke-linejoin:round;}
+  </style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="
+M0 216
+L216 216
+L216 0
+L0 0
+z
+" style="fill:none;opacity:0.0;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="
+M27 194.4
+L194.4 194.4
+L194.4 21.6
+L27 21.6
+z
+" style="fill:none;opacity:0.0;"/>
+   </g>
+   <g id="patch_3">
+    <path clip-path="url(#p4c72f1c596)" d="
+M32.2313 194.4
+L40.6013 194.4
+L40.6013 183.418
+L32.2313 183.418
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_4">
+    <path clip-path="url(#p4c72f1c596)" d="
+M42.6938 194.4
+L51.0637 194.4
+L51.0637 181.293
+L42.6938 181.293
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_5">
+    <path clip-path="url(#p4c72f1c596)" d="
+M53.1562 194.4
+L61.5262 194.4
+L61.5262 174.91
+L53.1562 174.91
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_6">
+    <path clip-path="url(#p4c72f1c596)" d="
+M63.6187 194.4
+L71.9887 194.4
+L71.9887 173.523
+L63.6187 173.523
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_7">
+    <path clip-path="url(#p4c72f1c596)" d="
+M74.0813 194.4
+L82.4513 194.4
+L82.4513 171.061
+L74.0813 171.061
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_8">
+    <path clip-path="url(#p4c72f1c596)" d="
+M84.5438 194.4
+L92.9138 194.4
+L92.9138 169.606
+L84.5438 169.606
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_9">
+    <path clip-path="url(#p4c72f1c596)" d="
+M95.0063 194.4
+L103.376 194.4
+L103.376 168.736
+L95.0063 168.736
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_10">
+    <path clip-path="url(#p4c72f1c596)" d="
+M105.469 194.4
+L113.839 194.4
+L113.839 168.475
+L105.469 168.475
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_11">
+    <path clip-path="url(#p4c72f1c596)" d="
+M115.931 194.4
+L124.301 194.4
+L124.301 166.938
+L115.931 166.938
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_12">
+    <path clip-path="url(#p4c72f1c596)" d="
+M126.394 194.4
+L134.764 194.4
+L134.764 163.81
+L126.394 163.81
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_13">
+    <path clip-path="url(#p4c72f1c596)" d="
+M136.856 194.4
+L145.226 194.4
+L145.226 163.569
+L136.856 163.569
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_14">
+    <path clip-path="url(#p4c72f1c596)" d="
+M147.319 194.4
+L155.689 194.4
+L155.689 160.466
+L147.319 160.466
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_15">
+    <path clip-path="url(#p4c72f1c596)" d="
+M157.781 194.4
+L166.151 194.4
+L166.151 159.958
+L157.781 159.958
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_16">
+    <path clip-path="url(#p4c72f1c596)" d="
+M168.244 194.4
+L176.614 194.4
+L176.614 156.094
+L168.244 156.094
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="patch_17">
+    <path clip-path="url(#p4c72f1c596)" d="
+M178.706 194.4
+L187.076 194.4
+L187.076 149.179
+L178.706 149.179
+z
+" style="stroke:#000000;"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_18">
+    <path d="
+M27 194.4
+L194.4 194.4" style="fill:none;stroke:#000000;"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4c72f1c596">
+   <rect height="172.8" width="167.4" x="27.0" y="21.6"/>
+  </clipPath>
+ </defs>
+</svg>
